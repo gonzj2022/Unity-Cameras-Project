@@ -30,7 +30,7 @@ public class Movement : MonoBehaviour
         // When player presses Up Arrow, character moves forward.
         // When player presses Right or Left Arrow keys, character rotates direction.
         if (controller.isGrounded){
-            if (Input.GetKey(KeyCode.UpArrow)){
+            if (Input.GetKey(KeyCode.W)){
                 anim.SetInteger("condition", 1);
                 running = true;
                 moveDir = new Vector3 (0, 0, 1);
@@ -42,7 +42,7 @@ public class Movement : MonoBehaviour
                 running = false;
             }
 
-            if (Input.GetKey(KeyCode.Space)){
+            if (Input.GetKey(KeyCode.S)){
                 anim.SetInteger("jump", 1);
                 if (running){
                     float slightMove = 0.5f;
@@ -55,13 +55,13 @@ public class Movement : MonoBehaviour
             } else {
                 anim.SetInteger("jump", 0);
             }
-
-            if (Input.GetKey(KeyCode.RightArrow)){
+            
+            if (Input.GetKey(KeyCode.D)){
                 rot += rotSpeed * Time.deltaTime;
                 transform.eulerAngles = new Vector3 (0, rot, 0);
             }
 
-            if (Input.GetKey(KeyCode.LeftArrow)){
+            if (Input.GetKey(KeyCode.A)){
                 rot -= rotSpeed * Time.deltaTime;
                 transform.eulerAngles = new Vector3 (0, rot, 0);
             }
