@@ -571,7 +571,7 @@ GameObject:
   m_Component:
   - component: {fileID: 87685644}
   - component: {fileID: 87685643}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hd_rightheadlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -715,7 +715,7 @@ GameObject:
   m_Component:
   - component: {fileID: 143706256}
   - component: {fileID: 143706257}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -909,7 +909,7 @@ GameObject:
   m_Component:
   - component: {fileID: 200463031}
   - component: {fileID: 200463030}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Point Light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1151,7 +1151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 290464554}
   - component: {fileID: 290464553}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hd_leftheadight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1245,7 +1245,7 @@ GameObject:
   m_Component:
   - component: {fileID: 339138270}
   - component: {fileID: 339138269}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hd_rightfrontlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2006,7 +2006,7 @@ GameObject:
   m_Component:
   - component: {fileID: 525988577}
   - component: {fileID: 525988576}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Point Light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2100,7 +2100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 529155425}
   - component: {fileID: 529155424}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hd_leftrearlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4700,7 +4700,7 @@ GameObject:
   m_Component:
   - component: {fileID: 870347101}
   - component: {fileID: 870347100}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Point Light (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4794,7 +4794,7 @@ GameObject:
   m_Component:
   - component: {fileID: 927831791}
   - component: {fileID: 927831790}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pc_rightfrontlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4893,7 +4893,7 @@ GameObject:
   m_Component:
   - component: {fileID: 972906617}
   - component: {fileID: 972906616}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hd_leftfrontlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4992,7 +4992,7 @@ GameObject:
   m_Component:
   - component: {fileID: 996088870}
   - component: {fileID: 996088869}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Point Light (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5204,7 +5204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1109023265}
   - component: {fileID: 1109023264}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Directional light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5348,7 +5348,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1120700207}
   - component: {fileID: 1120700206}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pc_leftheadlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5442,7 +5442,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1134243064}
   - component: {fileID: 1134243063}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Point Light (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5657,7 +5657,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1273127389}
   - component: {fileID: 1273127388}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pc_rightheadlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6396,7 +6396,7 @@ Camera:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 2147483647
-  m_RenderingPath: -1
+  m_RenderingPath: 0
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
@@ -6464,7 +6464,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1376285626}
   - component: {fileID: 1376285625}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pc_rearlightright
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6584,7 +6584,7 @@ Camera:
   m_GameObject: {fileID: 1392590333}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -6606,7 +6606,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -6835,7 +6835,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1540056623}
   - component: {fileID: 1540056622}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Point Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7028,7 +7028,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1610686436}
   - component: {fileID: 1610686435}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7122,7 +7122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1619575094}
   - component: {fileID: 1619575093}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pc_rearlightleft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7369,7 +7369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1670389429}
   - component: {fileID: 1670389428}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Point Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7463,7 +7463,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1683330943}
   - component: {fileID: 1683330942}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pc_leftfrontlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8081,7 +8081,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1962807320}
   - component: {fileID: 1962807319}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hd_rightrearlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8507,7 +8507,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2133732654}
   - component: {fileID: 2133732653}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
